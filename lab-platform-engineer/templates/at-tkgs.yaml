@@ -9,10 +9,10 @@ spec:
       clusterAffinity:
          clusterSelectorTerms:
          - matchExpressions:
-            - key: jaime-demo
+            - key: rz-cluster01
               operator: Exists
               values: []
-            - key: vsphere
+            - key: vsphere8u2
               operator: Exists
               values: []
    description: ""
